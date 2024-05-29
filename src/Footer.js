@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { ContactUs } from "./Contact.js";
 import { FaPaperPlane, FaPhone } from "react-icons/fa";
+import { LuFigma } from "react-icons/lu";
 
 export default function Footer() {
     return (
@@ -24,6 +25,7 @@ export default function Footer() {
                         </a>
                         <a href="https://www.linkedin.com/in/vignesh71810406/"><LinkedInIcon className="icons" /></a>
                         <a href="https://github.com/vicky-20-07"><GitHubIcon className="icons" /></a>
+                        <a href="https://www.figma.com/@vicky84"><LuFigma className="icons" /></a>
                     </div>
                 </div>
                 <div className="contact-right">
